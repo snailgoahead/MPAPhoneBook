@@ -16,7 +16,7 @@ namespace MPACore.PhoneBook.Authorization.Accounts
         public AccountAppService(
             UserRegistrationManager userRegistrationManager)
         {
-            _userRegistrationManager = userRegistrationManager;
+            _userRegistrationManager = userRegistrationManager; 
         }
 
         public async Task<IsTenantAvailableOutput> IsTenantAvailable(IsTenantAvailableInput input)
